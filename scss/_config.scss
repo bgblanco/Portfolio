@@ -1,4 +1,4 @@
-$primary-color: rgb(119, 119, 119);
+$primary-color: rgb(0, 0, 0);
 $secondary-color: #11b4dd;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
@@ -30,7 +30,7 @@ $background-opacity: 0.9;
 }
 
 //Set text color
-@function set-textcolot($color) {
+@function set-text-color($color) {
     @if (lightness($color) > 40) {
         @return #000;
     } @else {
